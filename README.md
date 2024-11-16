@@ -19,7 +19,15 @@ Print both the values it would be interchanged
 End the program
 ## PROGRAM:
 
+    a=(input())
+    b=(input())
+    temp=a
+    a=b
+    b=temp
+    print(f"Swapped values are: {a} {b}")
 
+## OUTPUT:
+![image](https://github.com/user-attachments/assets/04ac604a-5d1d-49af-b31d-901ade083d72)
 
 ## RESULT:
 Thus the swapping of two values are successfully executed
